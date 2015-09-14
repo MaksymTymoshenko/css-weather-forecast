@@ -1,158 +1,110 @@
-*{
-	padding: 0;
-	margin:0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  transition: all 0.1s ease-in;
 }
-
-html{
-	height: 100%;
+html {
+  height: 100%;
 }
-
-html, body {
-	min-height: 100%;
+html,
+body {
+  min-height: 100%;
 }
-
-body{
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-color: #3399CC;
-	border: 15px solid #2B81AC;
+body {
+  background-color: #3399CC;
+  border: 22px solid #2B81AC;
+  color: #fff;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  cursor: default;
 }
-
-header span{
-	display: block;
-	color: #FFF;
-	max-width: 700px;
-	margin:0 auto;
-	text-align: left;
-	padding: 25px 0;
-	font-size: 35px;
-	font-weight: bold;
+.header{
+  margin: 25px 0;
+  font-size: 15px;
 }
-
-section {
-	display: block;
-	max-width: 700px;
-	margin: 25px auto;
-	color: #FFF;
-	font-size: 30px;
+.container{
+  width:70%;
+  min-width:30%;
+  margin: 0 auto;
 }
-
-section:first-of-type{
-	border: 3px solid white;
-	background-color: white;
+.footer{
+  margin: 25px 0;
+  font-size: 19px;
 }
-
-
-ul{
-	font-size: 0;
+.cities{
+  list-style: none;
+  text-align: center;
+  font-size: 0;
+  border: 3px solid #fff;
+  background: #FFF;
 }
-
-li {
-	font-size: 25px;
-	display: inline-block;
-	list-style-type: none;
-	border: 3px solid;
+.cities li{
+  display: inline-block;
+  font-size: 24px;
+  border: 3px solid #fff;
+  padding: 25px;
 }
-
-li span:first-child{
-	padding: 10px;
-	text-align: center;
-	font-size: 25px;
-	display: block;
+.cities p{
+  position: relative;
 }
-
-li span:last-child{
-	padding: 15px;
-	opacity: .5;
-	text-align: center;
-	font-size: 25px;
-	display: block;
+.cities li p:last-child{
+  opacity: .7;
 }
-
-li span:last-child i{
-	font-size: 40px;
+.wi{
+  font-size: 34px;
 }
-
-li:nth-child(1){
-	width: 50%;
-	max-height: 25%;
-	background-color: #3399CC;
+.wi-sunrise{
+  font-size: 26px;
 }
-
-li:nth-child(2){
-	width: 25%;
-	max-height: 25%;
-	background-color: #33CCCC;
+.lisbon{
+  background: #3399CC;
+  width: 50%;
 }
-
-li:nth-child(3){
-	width: 25%;
-	max-height: 25%;
-	background-color: #996699;
+.paris{
+  background: #33CCCC;
+  width: 25%;
 }
-li:nth-child(4){
-	width: 25%;
-	max-height: 25%;
-	background-color: #C24747;
+.belgrade{
+  background: #996699;
+  width: 25%;
 }
-
-li:nth-child(5){
-	width: 25%;
-	max-height: 25%;
-	background-color: #E2674A;
+.moscow{
+  background: #C24747;
+  width: 25%;
 }
-
-li:nth-child(6){
-	width: 25%;
-	max-height: 25%;
-	background-color: #FFCC66;
+.tel-aviv{
+  background: #E2674A;
+  width: 25%;
 }
-
-li:nth-child(7){
-	width: 25%;
-	max-height: 25%;
-	background-color: #99CC99;
+.cair{
+  background: #FFCC66;
+  width: 25%;
 }
-
-li:nth-child(8){
-	width: 25%;
-	max-height: 25%;
-	background-color: #669999;
+.new-york{
+  background: #99CC99;
+  width: 25%;
 }
-
-li:nth-child(9){
-	width: 50%;
-	max-height: 25%;
-	background-color: #CC6699;
+.new-delhi{
+  background: #669999;
+  width: 25%;
 }
-
-li:nth-child(10){
-	width: 25%;
-	max-height: 25%;
-	background-color: #339966;
+.san-francisco{
+  background: #CC6699;
+  width: 50%;
 }
-
-li:nth-child(11){
-	width: 100%;
-	max-height: 25%;
-	background-color: #666699;
+.tokyo{
+  background: #339966;
+  width: 25%;
 }
-
-
-section:first-of-type ul:hover > li{
-	opacity: .5;
+.sydney{
+  background: #666699;
+  width: 100%;
 }
-
-section:first-of-type ul > li:hover{
-	opacity: 1;
+.cities:hover > li {
+  opacity: .6;
 }
-
-section:last-of-type span{
-	margin: 5px;
-	font-size: 20px;
+.cities > li:hover {
+  opacity: 1;
 }
-
-*{transition: all .1s ease-in;}
-
